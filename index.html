@@ -467,12 +467,12 @@
                 <a href="https://wa.me/916387617678?text=Hello%20I%20need%20CSC%20help" target="_blank" class="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-green-400 to-emerald-600 shadow-lg hover:scale-105 transition"><i class="fab fa-whatsapp"></i> WhatsApp Support</a>
             </div>
             <div class="flex flex-wrap justify-center gap-2 mt-6">
-                <a href="/passport" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Passport Photo</a>
-                <a href="/bg" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Background Remover</a>
-                <a href="/photo-sign" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Signature Resizer</a>
-                <a href="/image-to-pdf" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Image to PDF</a>
-                <a href="/invoice-generator" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Bill Generator</a>
-                <a href="/qr" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">QR Generator</a>
+                <a href="/tools/passport.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Passport Photo</a>
+                <a href="/tools/bg.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Background Remover</a>
+                <a href="/tools/photo-sign.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Signature Resizer</a>
+                <a href="/tools/image-to-pdf.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Image to PDF</a>
+                <a href="/tools/invoice-generator.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">Bill Generator</a>
+                <a href="/tools/qr.html" class="text-xs bg-white/15 hover:bg-white/25 backdrop-blur px-3 py-1.5 rounded-full transition">QR Generator</a>
             </div>
             <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-7 text-sm text-white/90">
                 <span><i class="fas fa-check-circle text-green-300"></i> No Sign-up</span>
@@ -1034,28 +1034,28 @@
                 <h4 class="text-white font-semibold mb-3">Quick Links</h4>
                 <ul class="text-sm space-y-2">
                     <li><a href="/" class="hover:text-white">Home</a></li>
-                    <li><a href="/about" class="hover:text-white">About Us</a></li>
-                    <li><a href="/contact" class="hover:text-white">Contact</a></li>
+                    <li><a href="/about.html" class="hover:text-white">About Us</a></li>
+                    <li><a href="/contact.html" class="hover:text-white">Contact</a></li>
                     <li><a href="#tools" class="hover:text-white">All Tools</a></li>
-                    <li><a href="/blog" class="hover:text-white">Blog / Guides</a></li>
+                    <li><a href="#blog" class="hover:text-white">Blog / Guides</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-white font-semibold mb-3">Popular Tools</h4>
                 <ul class="text-sm space-y-2">
-                    <li><a href="/passport" class="hover:text-white">Passport Photo Maker</a></li>
-                    <li><a href="/bg" class="hover:text-white">Background Remover</a></li>
-                    <li><a href="/photo-sign" class="hover:text-white">Signature Resizer</a></li>
-                    <li><a href="/image-to-pdf" class="hover:text-white">Image to PDF</a></li>
-                    <li><a href="/invoice-generator" class="hover:text-white">Bill Generator</a></li>
+                    <li><a href="/tools/passport.html" class="hover:text-white">Passport Photo Maker</a></li>
+                    <li><a href="/tools/bg.html" class="hover:text-white">Background Remover</a></li>
+                    <li><a href="/tools/photo-sign.html" class="hover:text-white">Signature Resizer</a></li>
+                    <li><a href="/tools/image-to-pdf.html" class="hover:text-white">Image to PDF</a></li>
+                    <li><a href="/tools/invoice-generator.html" class="hover:text-white">Bill Generator</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-white font-semibold mb-3">Legal</h4>
                 <ul class="text-sm space-y-2">
-                    <li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
-                    <li><a href="/terms" class="hover:text-white">Terms of Use</a></li>
-                    <li><a href="/disclaimer" class="hover:text-white">Disclaimer</a></li>
+                    <li><a href="/privacy.html" class="hover:text-white">Privacy Policy</a></li>
+                    <li><a href="/terms.html" class="hover:text-white">Terms of Use</a></li>
+                    <li><a href="/disclaimer.html" class="hover:text-white">Disclaimer</a></li>
                 </ul>
             </div>
         </div>
@@ -1072,32 +1072,32 @@
 
         // ========== TOOLS DATA ==========
         const toolsData = [
-            { name: "Passport Photo Maker", desc: "Make passport-size photos with correct dimensions for forms.", icon: "fa-id-card", color: "from-red-500 to-rose-600", category: "doc", badge: "Popular", pin: true, img: "", url: "/passport" },
-            { name: "Background Remover", desc: "Remove image background free, fast and automatically.", icon: "fa-wand-magic-sparkles", color: "from-violet-500 to-purple-600", category: "doc", badge: "Popular", pin: true, img: "", url: "/bg" },
-            { name: "Photo & Signature Resizer", desc: "Resize photo & signature to exam KB and DPI limits.", icon: "fa-signature", color: "from-orange-500 to-amber-600", category: "doc", pin: true, img: "", url: "/photo-sign" },
-            { name: "Image to PDF", desc: "Convert one or more images into a single PDF file.", icon: "fa-file-pdf", color: "from-rose-500 to-red-600", category: "doc", pin: true, img: "", url: "/image-to-pdf" },
-            { name: "Resume / CV Builder", desc: "Create professional Indian-style resumes & CVs with photo and A4 PDF download.", icon: "fa-file-lines", color: "from-rose-500 to-pink-600", category: "utility", badge: "NEW", img: "", url: "/resume-builder" },
-            { name: "Invoice / Bill Generator", desc: "GST-ready bills & invoices with auto-calculation and print-ready PDF.", icon: "fa-file-invoice", color: "from-emerald-500 to-green-600", category: "finance", badge: "NEW", img: "", url: "/invoice-generator" },
-            { name: "CSC Billing Software", desc: "Offline-style billing software to manage your CSC center sales.", icon: "fa-cash-register", color: "from-amber-500 to-orange-600", category: "finance", img: "", url: "/csc-billing-software" },
-            { name: "CSC Center Manager", desc: "Manage your CSC center details, services and customer receipts.", icon: "fa-store", color: "from-indigo-500 to-violet-600", category: "utility", img: "", url: "/csc-manager" },
-            { name: "GST Calculator", desc: "Calculate GST inclusive or exclusive amounts instantly.", icon: "fa-percent", color: "from-teal-500 to-cyan-600", category: "finance", img: "", url: "/gst" },
-            { name: "Loan EMI Calculator", desc: "Monthly EMI, total interest and payment in seconds.", icon: "fa-indian-rupee-sign", color: "from-green-500 to-emerald-600", category: "finance", img: "", url: "/loan-emi" },
-            { name: "GPA / CGPA Calculator", desc: "Convert marks and grades to GPA & CGPA easily.", icon: "fa-graduation-cap", color: "from-blue-500 to-indigo-600", category: "finance", img: "", url: "/gpa-cgpa-calculator" },
-            { name: "Percentage Calculator", desc: "All-in-one percentage and marks calculations.", icon: "fa-calculator", color: "from-purple-500 to-fuchsia-600", category: "finance", img: "", url: "/percentage-cal" },
-            { name: "Age Calculator", desc: "Find exact age in years, months and days.", icon: "fa-cake-candles", color: "from-pink-500 to-rose-600", category: "utility", img: "", url: "/age-calculator" },
-            { name: "Date Difference", desc: "Calculate the number of days between two dates.", icon: "fa-calendar-days", color: "from-sky-500 to-blue-600", category: "utility", img: "", url: "/date-difference" },
-            { name: "Photo + Signature Joiner", desc: "Join your photo and signature into a single image.", icon: "fa-object-group", color: "from-cyan-500 to-teal-600", category: "doc", img: "", url: "/photo-name-joiner" },
-            { name: "Photo Quality Enhancer", desc: "Enhance and sharpen low-quality photos online.", icon: "fa-image", color: "from-fuchsia-500 to-pink-600", category: "doc", img: "", url: "/enhance-photo" },
-            { name: "Image Cropper", desc: "Crop images to any size or ratio online.", icon: "fa-crop", color: "from-lime-500 to-green-600", category: "doc", img: "", url: "/crop" },
-            { name: "Image Resizer", desc: "Resize images to a target size (50/100/200 KB).", icon: "fa-up-right-and-down-left-from-center", color: "from-blue-500 to-sky-600", category: "doc", img: "", url: "/image-resizer" },
-            { name: "Image Compressor", desc: "Compress images to small size without quality loss.", icon: "fa-compress", color: "from-teal-500 to-emerald-600", category: "doc", img: "", url: "/compress-image" },
-            { name: "Image Converter", desc: "Convert between JPG, PNG, WEBP and more formats.", icon: "fa-right-left", color: "from-indigo-500 to-blue-600", category: "doc", img: "", url: "/converter" },
-            { name: "Word to PDF", desc: "Convert Word documents into clean PDF files.", icon: "fa-file-word", color: "from-blue-600 to-indigo-700", category: "doc", img: "", url: "/Word-to-PDF" },
-            { name: "Merge PDF", desc: "Combine multiple PDF files into one document.", icon: "fa-layer-group", color: "from-amber-500 to-orange-600", category: "doc", img: "", url: "/merge-pdf" },
-            { name: "Split PDF", desc: "Split a PDF into separate pages or files.", icon: "fa-scissors", color: "from-purple-500 to-violet-600", category: "doc", img: "", url: "/split" },
-            { name: "File Cover Maker", desc: "Create attractive file covers and front pages.", icon: "fa-book-open", color: "from-pink-500 to-fuchsia-600", category: "utility", img: "", url: "/cover" },
-            { name: "QR Code Generator", desc: "Generate all-in-one QR codes for links, UPI and more.", icon: "fa-qrcode", color: "from-slate-600 to-gray-800", category: "utility", badge: "Popular", img: "", url: "/qr" },
-            { name: "Marriage Biodata Maker", desc: "Create beautiful marriage biodata PDFs in minutes.", icon: "fa-heart", color: "from-rose-500 to-pink-600", category: "utility", img: "", url: "/marital-biodata-maker" }
+            { name: "Passport Photo Maker", desc: "Make passport-size photos with correct dimensions for forms.", icon: "fa-id-card", color: "from-red-500 to-rose-600", category: "doc", badge: "Popular", pin: true, img: "/images/passport.webp", url: "/tools/passport.html" },
+            { name: "Background Remover", desc: "Remove image background free, fast and automatically.", icon: "fa-wand-magic-sparkles", color: "from-violet-500 to-purple-600", category: "doc", badge: "Popular", pin: true, img: "/images/bg.webp", url: "/tools/bg.html" },
+            { name: "Photo & Signature Resizer", desc: "Resize photo & signature to exam KB and DPI limits.", icon: "fa-signature", color: "from-orange-500 to-amber-600", category: "doc", badge: "", pin: true, img: "/images/photo-sign.webp", url: "/tools/photo-sign.html" },
+            { name: "Image to PDF", desc: "Convert one or more images into a single PDF file.", icon: "fa-file-pdf", color: "from-rose-500 to-red-600", category: "doc", badge: "", pin: true, img: "/images/image-to-pdf.webp", url: "/tools/image-to-pdf.html" },
+            { name: "Resume / CV Builder", desc: "Create professional Indian-style resumes & CVs with photo and A4 PDF download.", icon: "fa-file-lines", color: "from-rose-500 to-pink-600", category: "utility", badge: "NEW", pin: false, img: "/images/resume-builder.webp", url: "/tools/resume-builder.html" },
+            { name: "Invoice / Bill Generator", desc: "GST-ready bills & invoices with auto-calculation and print-ready PDF.", icon: "fa-file-invoice", color: "from-emerald-500 to-green-600", category: "finance", badge: "NEW", pin: false, img: "/images/invoice-generator.webp", url: "/tools/invoice-generator.html" },
+            { name: "CSC Billing Software", desc: "Offline-style billing software to manage your CSC center sales.", icon: "fa-cash-register", color: "from-amber-500 to-orange-600", category: "finance", badge: "", pin: false, img: "/images/csc-billing-software.webp", url: "/tools/csc-billing-software.html" },
+            { name: "CSC Center Manager", desc: "Manage your CSC center details, services and customer receipts.", icon: "fa-store", color: "from-indigo-500 to-violet-600", category: "utility", badge: "", pin: false, img: "/images/csc-manager.webp", url: "/tools/csc-manager.html" },
+            { name: "GST Calculator", desc: "Calculate GST inclusive or exclusive amounts instantly.", icon: "fa-percent", color: "from-teal-500 to-cyan-600", category: "finance", badge: "", pin: false, img: "/images/gst.webp", url: "/tools/gst.html" },
+            { name: "Loan EMI Calculator", desc: "Monthly EMI, total interest and payment in seconds.", icon: "fa-indian-rupee-sign", color: "from-green-500 to-emerald-600", category: "finance", badge: "", pin: false, img: "/images/loan-emi.webp", url: "/tools/loan-emi.html" },
+            { name: "GPA / CGPA Calculator", desc: "Convert marks and grades to GPA & CGPA easily.", icon: "fa-graduation-cap", color: "from-blue-500 to-indigo-600", category: "finance", badge: "", pin: false, img: "/images/gpa-cgpa-calculator.webp", url: "/tools/gpa-cgpa-calculator.html" },
+            { name: "Percentage Calculator", desc: "All-in-one percentage and marks calculations.", icon: "fa-calculator", color: "from-purple-500 to-fuchsia-600", category: "finance", badge: "", pin: false, img: "/images/percentage-cal.webp", url: "/tools/percentage-cal.html" },
+            { name: "Age Calculator", desc: "Find exact age in years, months and days.", icon: "fa-cake-candles", color: "from-pink-500 to-rose-600", category: "utility", badge: "", pin: false, img: "/images/age-calculator.webp", url: "/tools/age-calculator.html" },
+            { name: "Date Difference", desc: "Calculate the number of days between two dates.", icon: "fa-calendar-days", color: "from-sky-500 to-blue-600", category: "utility", badge: "", pin: false, img: "/images/date-difference.webp", url: "/tools/date-difference.html" },
+            { name: "Photo + Signature Joiner", desc: "Join your photo and signature into a single image.", icon: "fa-object-group", color: "from-cyan-500 to-teal-600", category: "doc", badge: "", pin: false, img: "/images/photo-name-joiner.webp", url: "/tools/photo-name-joiner.html" },
+            { name: "Photo Quality Enhancer", desc: "Enhance and sharpen low-quality photos online.", icon: "fa-image", color: "from-fuchsia-500 to-pink-600", category: "doc", badge: "", pin: false, img: "/images/enhance-photo.webp", url: "/tools/enhance-photo.html" },
+            { name: "Image Cropper", desc: "Crop images to any size or ratio online.", icon: "fa-crop", color: "from-lime-500 to-green-600", category: "doc", badge: "", pin: false, img: "/images/crop.webp", url: "/tools/crop.html" },
+            { name: "Image Resizer", desc: "Resize images to a target size (50/100/200 KB).", icon: "fa-up-right-and-down-left-from-center", color: "from-blue-500 to-sky-600", category: "doc", badge: "", pin: false, img: "/images/image-resizer.webp", url: "/tools/image-resizer.html" },
+            { name: "Image Compressor", desc: "Compress images to small size without quality loss.", icon: "fa-compress", color: "from-teal-500 to-emerald-600", category: "doc", badge: "", pin: false, img: "/images/compress-image.webp", url: "/tools/compress-image.html" },
+            { name: "Image Converter", desc: "Convert between JPG, PNG, WEBP and more formats.", icon: "fa-right-left", color: "from-indigo-500 to-blue-600", category: "doc", badge: "", pin: false, img: "/images/converter.webp", url: "/tools/converter.html" },
+            { name: "Word to PDF", desc: "Convert Word documents into clean PDF files.", icon: "fa-file-word", color: "from-blue-600 to-indigo-700", category: "doc", badge: "", pin: false, img: "/images/Word-to-PDF.webp", url: "/tools/Word-to-PDF.html" },
+            { name: "Merge PDF", desc: "Combine multiple PDF files into one document.", icon: "fa-layer-group", color: "from-amber-500 to-orange-600", category: "doc", badge: "", pin: false, img: "/images/merge-pdf.webp", url: "/tools/merge-pdf.html" },
+            { name: "Split PDF", desc: "Split a PDF into separate pages or files.", icon: "fa-scissors", color: "from-purple-500 to-violet-600", category: "doc", badge: "", pin: false, img: "/images/split.webp", url: "/tools/split.html" },
+            { name: "File Cover Maker", desc: "Create attractive file covers and front pages.", icon: "fa-book-open", color: "from-pink-500 to-fuchsia-600", category: "utility", badge: "", pin: false, img: "/images/cover.webp", url: "/tools/cover.html" },
+            { name: "QR Code Generator", desc: "Generate all-in-one QR codes for links, UPI and more.", icon: "fa-qrcode", color: "from-slate-600 to-gray-800", category: "utility", badge: "Popular", pin: false, img: "/images/qr.webp", url: "/tools/qr.html" },
+            { name: "Marriage Biodata Maker", desc: "Create beautiful marriage biodata PDFs in minutes.", icon: "fa-heart", color: "from-rose-500 to-pink-600", category: "utility", badge: "", pin: false, img: "/images/marital-biodata-maker.webp", url: "/tools/marital-biodata-maker.html" }
         ];
 
         const blogPosts = [{
@@ -1135,7 +1135,7 @@
             filtered = filtered.slice().sort((a, b) => (b.pin ? 1 : 0) - (a.pin ? 1 : 0));
             filtered.forEach(tool => {
                 const thumb = tool.img
-                    ? `<img src="${tool.img}" alt="${tool.name}" loading="lazy" class="w-full h-44 object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="w-full h-44 bg-gradient-to-br ${tool.color} items-center justify-center text-white text-6xl" style="display:none"><i class="fas ${tool.icon}"></i></div>`
+                    ? `<img src="${tool.img}" alt="${tool.name}" loading="lazy" class="w-full h-44 object-cover" onerror="if(this.src.indexOf('.webp')>-1){this.src=this.src.replace('.webp','.jpg');}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"><div class="w-full h-44 bg-gradient-to-br ${tool.color} items-center justify-center text-white text-6xl" style="display:none"><i class="fas ${tool.icon}"></i></div>`
                     : `<div class="w-full h-44 bg-gradient-to-br ${tool.color} flex items-center justify-center text-white text-6xl"><i class="fas ${tool.icon}"></i></div>`;
                 grid.innerHTML += `<a href="${tool.url}" class="tool-card group block bg-white rounded-2xl shadow-lg hover:shadow-2xl border border-gray-100 overflow-hidden transition-all relative">
       ${tool.pin ? `<span class="absolute top-3 left-3 z-10 bg-[#ab183d] text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow"><i class="fas fa-thumbtack"></i> Pinned</span>` : ""}
