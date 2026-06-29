@@ -10,7 +10,7 @@ window.addEventListener('load',function(){try{document.querySelectorAll('ins.ads
 // ===== Article image fallback =====
 document.querySelectorAll('img[data-fb]').forEach(function(im){im.addEventListener('error',function(){this.onerror=null;this.src='https://placehold.co/1200x630/ab183d/ffffff?text=Pro+CSC+Tools';});});
 // ===== Blog posts (add a new object on top to publish a new article) =====
-const newBlogPosts = [
+const blogPosts = [
   {
     "title": "Age Calculator Online Free - Calculate Exact Age by Date of Birth",
     "excerpt": "Calculate exact age in years, months and days from date of birth online free. Check age eligibility for exams and government forms. Easy guide for CSC VLEs.",
