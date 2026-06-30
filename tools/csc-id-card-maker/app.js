@@ -1,16 +1,13 @@
-// ===================================================================
-// PRO CSC TOOLS - shared header behaviour (mobile menu + icons)
-// ===================================================================
+// ===== Pro CSC Tools - mobile menu toggle =====
 (function () {
   var menuBtn = document.getElementById('menuBtn');
   var mobileMenu = document.getElementById('mobileMenu');
   if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener('click', function () { mobileMenu.classList.toggle('hidden'); });
+    menuBtn.addEventListener('click', function () { mobileMenu.classList.toggle('open'); });
   }
   document.querySelectorAll('[data-close-mobile]').forEach(function (a) {
-    a.addEventListener('click', function () { if (mobileMenu) mobileMenu.classList.add('hidden'); });
+    a.addEventListener('click', function () { if (mobileMenu) mobileMenu.classList.remove('open'); });
   });
-  if (window.lucide) { try { lucide.createIcons(); } catch (e) {} }
 })();
 
 (function() {
