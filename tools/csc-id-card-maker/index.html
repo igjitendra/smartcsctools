@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSC ID Card Maker - Free Online PVC ID Card Generator</title>
+    <meta name="description" content="Free CSC ID Card Maker online. Create professional VLE, employee, student & office ID cards with photo, signature, QR code & barcode. Instant PNG & PDF download.">
+    <meta name="keywords" content="csc id card maker, id card maker online, csc vle id card, employee id card maker, student id card maker, pvc id card generator, qr code id card, free id card maker, id card print, csc tools">
+    <meta name="author" content="Pro CSC Tools">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://procsctools.in/tools/csc-id-card-maker/">
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#ab183d">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Pro CSC Tools">
+    <meta name="msapplication-TileColor" content="#ab183d">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://procsctools.in/tools/csc-id-card-maker/">
+    <meta property="og:title" content="CSC ID Card Maker - Free Online PVC ID Card Generator">
+    <meta property="og:description" content="Design & print professional ID cards online with photo, signature, QR code and barcode. Instant PNG & PDF download. 100% free.">
+    <meta property="og:image" content="https://procsctools.in/images/csc-id-card-maker.webp">
+    <meta property="og:site_name" content="Pro CSC Tools">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CSC ID Card Maker - Free Online ID Card Generator">
+    <meta name="twitter:description" content="Create professional CSC VLE, employee & student ID cards with photo, QR code and barcode. Free PNG & PDF download.">
+    <meta name="twitter:image" content="https://procsctools.in/images/csc-id-card-maker.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Google AdSense: apni Publisher ID (ca-pub-...) milne par yaha daalein -->
+    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tool libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+
+    <!-- ========== SCHEMA MARKUP ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "CSC ID Card Maker",
+      "url": "https://procsctools.in/tools/csc-id-card-maker/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript",
+      "description": "Free online CSC ID Card Maker to create professional VLE, employee, student and office ID cards with photo, signature, QR code and barcode.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "publisher": { "@type": "Organization", "name": "Pro CSC Tools", "url": "https://procsctools.in/" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://procsctools.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://procsctools.in/#tools" },
+        { "@type": "ListItem", "position": 3, "name": "CSC ID Card Maker", "item": "https://procsctools.in/tools/csc-id-card-maker/" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to make a CSC ID card online",
+      "step": [
+        { "@type": "HowToStep", "name": "Enter details", "text": "Fill in VLE name, CSC ID, center name, mobile, email and address." },
+        { "@type": "HowToStep", "name": "Add photo & signature", "text": "Upload a passport photo and draw or upload your signature." },
+        { "@type": "HowToStep", "name": "Choose template", "text": "Pick one of the professional colour templates." },
+        { "@type": "HowToStep", "name": "Download", "text": "Download the ID card as PNG or print-ready PDF in 8.6x5.4 cm size." }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is the CSC ID Card Maker free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the CSC ID Card Maker is 100% free with unlimited downloads and no watermark." } },
+        { "@type": "Question", "name": "What size is the ID card?", "acceptedAnswer": { "@type": "Answer", "text": "The card is generated in the standard PVC ID card size of 8.6 cm x 5.4 cm (CR80), ready for printing." } },
+        { "@type": "Question", "name": "Is my data safe?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Everything runs in your browser. Your photo and details are never uploaded to any server." } },
+        { "@type": "Question", "name": "Can I add a QR code and barcode?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the card automatically generates a QR code and barcode from your CSC ID and details." } }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR (Pro CSC Tools) ========== -->
+    <nav class="no-print fixed top-0 w-full z-50 backdrop-blur-lg bg-white/85 border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-2xl font-extrabold tracking-tight text-[#ab183d] drop-shadow-sm">
+                    <i class="fas fa-microchip mr-1"></i> Pro CSC Tools
+                </a>
+                <div class="hidden md:flex items-center gap-8 font-semibold">
+                    <a href="/" class="relative group text-gray-700 hover:text-[#ab183d]">Home<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                    <a href="/#tools" class="relative group text-gray-700 hover:text-[#ab183d]">Tools<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                    <a href="/#calculators" class="relative group text-gray-700 hover:text-[#ab183d]">Calculators<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                    <a href="/#validators" class="relative group text-gray-700 hover:text-[#ab183d]">Validators<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                    <a href="/#blog" class="relative group text-gray-700 hover:text-[#ab183d]">Guides<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                    <a href="/contact.html" class="relative group text-gray-700 hover:text-[#ab183d]">Support<span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#ab183d] transition-all group-hover:w-full"></span></a>
+                </div>
+                <a href="/#tools" class="hidden md:block bg-[#ab183d] text-white px-5 py-2 rounded-full shadow-md hover:bg-red-700 transition-all hover:scale-105"><i class="fas fa-rocket mr-1"></i> Get Started</a>
+                <button id="menuBtn" class="md:hidden text-2xl focus:outline-none" aria-label="Menu"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="no-print hidden fixed top-16 left-0 w-full bg-white shadow-xl p-6 z-40 border-t">
+        <div class="flex flex-col space-y-4">
+            <a href="/" class="block py-2 border-b border-gray-100 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-home mr-2 text-[#ab183d]"></i> Home</a>
+            <a href="/#tools" class="block py-2 border-b border-gray-100 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-tools mr-2 text-[#ab183d]"></i> Tools</a>
+            <a href="/#calculators" class="block py-2 border-b border-gray-100 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-calculator mr-2 text-[#ab183d]"></i> Calculators</a>
+            <a href="/#validators" class="block py-2 border-b border-gray-100 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-check-circle mr-2 text-[#ab183d]"></i> Validators</a>
+            <a href="/#blog" class="block py-2 border-b border-gray-100 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-newspaper mr-2 text-[#ab183d]"></i> Guides</a>
+            <a href="/contact.html" class="block py-2 font-medium text-gray-800 hover:text-[#ab183d] transition" data-close-mobile><i class="fas fa-headset mr-2 text-[#ab183d]"></i> Support</a>
+        </div>
+    </div>
+
+    <!-- ========== TOOL HERO ========== -->
+    <section class="tool-hero no-print pt-10 pb-8 text-center relative overflow-hidden">
+        <div class="relative z-10 max-w-3xl mx-auto px-4">
+            <nav class="text-xs text-white/70 mb-3" aria-label="Breadcrumb">
+                <a href="/" class="hover:text-white">Home</a> &rsaquo;
+                <a href="/#tools" class="hover:text-white">Tools</a> &rsaquo;
+                <span class="text-white">CSC ID Card Maker</span>
+            </nav>
+            <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-1 rounded-full mb-3 text-xs font-semibold">
+                <i class="fas fa-id-card text-yellow-300"></i> Free Tool | No Watermark
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">CSC ID Card Maker</h1>
+            <p class="text-white/90 mt-3 text-sm sm:text-base">Create professional CSC VLE, employee &amp; student ID cards online with photo, signature, QR code and barcode. Download print-ready PNG &amp; PDF in standard 8.6&times;5.4 cm size.</p>
+        </div>
+    </section>
+
+    <!-- ====== MAIN TOOL ====== -->
+    <main>
+    <div class="app-container">
+
+        <!-- LEFT: FORM -->
+        <section class="panel no-print">
+            <div class="panel-title">
+                <span class="title-icon"><i class="fas fa-pen-fancy"></i></span> Enter Details
+            </div>
+
+            <form id="idForm" autocomplete="off">
+                <div class="section-divider">
+                    <div class="section-label"><i class="fas fa-id-card"></i> Front Side</div>
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> VLE Name</label>
+                        <input type="text" id="vleName" placeholder="e.g. Rajesh Kumar" value="Rajesh Kumar">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-qrcode"></i> CSC ID</label>
+                            <input type="text" id="cscId" placeholder="e.g. CSC123456" value="CSC789012">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-store"></i> Center Name</label>
+                            <input type="text" id="centerName" placeholder="e.g. City Center" value="Digital India Center">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Mobile</label>
+                            <input type="text" id="mobile" placeholder="e.g. 9876543210" value="9876543210">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" placeholder="vle@example.com" value="vle@csc.gov.in">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-map-pin"></i> Address</label>
+                        <textarea id="address" rows="2" placeholder="Full address">123, Main Road, New Delhi - 110001</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-camera"></i> Photo</label>
+                        <div class="upload-area" id="photoUpload">
+                            <div class="upload-content">
+                                <img class="preview-img" id="photoPreview" src="#" alt="Preview">
+                                <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                                <p class="upload-text">Tap to upload photo</p>
+                            </div>
+                            <input type="file" id="photoInput" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-pen"></i> Signature</label>
+                        <div class="signature-area">
+                            <canvas id="sigCanvas" height="80"></canvas>
+                            <div class="signature-actions">
+                                <button type="button" class="btn-clear-sig" id="clearSig"><i class="fas fa-undo"></i> Clear</button>
+                                <button type="button" class="btn-upload-sig" id="uploadSigBtn"><i class="fas fa-image"></i> Upload</button>
+                                <input type="file" id="sigUploadInput" accept="image/*" style="display:none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-divider orange-border">
+                    <div class="section-label orange"><i class="fas fa-address-card"></i> Back Side</div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-calendar-day"></i> Issue Date</label>
+                            <input type="date" id="issueDate" value="2026-06-26">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-calendar-times"></i> Expiry Date</label>
+                            <input type="date" id="expiryDate" value="2028-06-26">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-phone-alt"></i> Helpline / Support</label>
+                        <input type="text" id="helpline" placeholder="e.g. 1800-123-4567" value="1800-111-2222">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-building"></i> Issuing Authority</label>
+                        <input type="text" id="authority" placeholder="e.g. CSC e-Governance Services" value="CSC e-Governance Services India Ltd.">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-file-contract"></i> Terms &amp; Conditions</label>
+                        <textarea id="terms" rows="3" placeholder="Terms and conditions...">This ID card is the property of CSC e-Governance Services. It must be presented upon request. Unauthorized use is prohibited. Valid only with authorized signature and photo.</textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-palette"></i> Choose Template</label>
+                    <div class="template-selector" id="templateSelector">
+                        <button type="button" class="template-btn active" data-template="blue"><span class="swatch" style="background:linear-gradient(135deg,#1e3a8a,#3b82f6)"></span><span class="template-name">Blue</span></button>
+                        <button type="button" class="template-btn" data-template="orange"><span class="swatch" style="background:linear-gradient(135deg,#9a3412,#f97316)"></span><span class="template-name">Orange</span></button>
+                        <button type="button" class="template-btn" data-template="green"><span class="swatch" style="background:linear-gradient(135deg,#14532d,#22c55e)"></span><span class="template-name">Green</span></button>
+                        <button type="button" class="template-btn" data-template="government"><span class="swatch" style="background:linear-gradient(135deg,#0f172a,#fbbf24)"></span><span class="template-name">Govt.</span></button>
+                        <button type="button" class="template-btn" data-template="modern"><span class="swatch" style="background:linear-gradient(135deg,#4c1d95,#8b5cf6)"></span><span class="template-name">Modern</span></button>
+                        <button type="button" class="template-btn" data-template="premium"><span class="swatch" style="background:linear-gradient(135deg,#0c0a1d,#fbbf24)"></span><span class="template-name">Premium</span></button>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary" id="downloadPdf"><i class="fas fa-file-pdf"></i> PDF (Both)</button>
+                    <button type="button" class="btn btn-success" id="downloadPng"><i class="fas fa-image"></i> PNG (Front)</button>
+                </div>
+                <div class="btn-group" style="margin-top:8px;">
+                    <button type="button" class="btn btn-success" id="downloadPngBack" style="flex:1"><i class="fas fa-image"></i> PNG (Back)</button>
+                    <button type="button" class="btn btn-outline" id="printCard" style="flex:1"><i class="fas fa-print"></i> Print</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- RIGHT: PREVIEW -->
+        <section class="panel">
+            <div class="panel-title">
+                <span class="title-icon"><i class="fas fa-eye"></i></span> Live Preview
+            </div>
+            <div class="flip-controls no-print">
+                <button class="flip-btn active" id="showFrontBtn"><i class="fas fa-id-card"></i> Front</button>
+                <button class="flip-btn" id="showBackBtn"><i class="fas fa-address-card"></i> Back</button>
+                <button class="flip-btn" id="flipCardBtn"><i class="fas fa-sync-alt"></i> Flip</button>
+            </div>
+            <div class="card-preview-wrapper" id="previewWrapper">
+                <div class="card-flip-container" id="cardFlipContainer">
+                    <div class="card-flip-inner" id="cardFlipInner">
+                        <div class="card-face card-front" id="idCardFront">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <div class="card-logo"><i class="fas fa-id-badge"></i> CSC VLE</div>
+                                    <div class="card-badge">Identity Card</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-left">
+                                        <div class="card-avatar" id="previewAvatar"><i class="fas fa-user-circle placeholder-icon"></i></div>
+                                        <div class="vle-name" id="previewName">Rajesh Kumar</div>
+                                        <div class="vle-id" id="previewId">CSC789012</div>
+                                    </div>
+                                    <div class="card-right">
+                                        <div class="vle-center" id="previewCenter">Digital India Center</div>
+                                        <div class="vle-details" id="previewDetails">
+                                            <span><i class="fas fa-phone"></i> 9876543210</span>
+                                            <span><i class="fas fa-envelope"></i> vle@csc.gov.in</span>
+                                            <span><i class="fas fa-map-pin"></i> 123, Main Road, New Delhi - 110001</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="codes">
+                                        <div class="qr-wrap" id="qrWrap"></div>
+                                        <div class="barcode-wrap" id="barcodeWrap"></div>
+                                    </div>
+                                    <div class="signature-wrap">
+                                        <span class="sig-label">Signature</span>
+                                        <div class="sig-img" id="sigPreview"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-face card-back" id="idCardBack">
+                            <div class="card-back-inner">
+                                <div class="card-back-header">
+                                    <div class="back-title"><i class="fas fa-id-card"></i> CSC VLE</div>
+                                    <div class="back-badge">Authorized</div>
+                                </div>
+                                <div class="card-back-body">
+                                    <div class="back-field"><span class="field-label"><i class="fas fa-calendar-day"></i> Issue</span><span class="field-value" id="backIssueDate">26-06-2026</span></div>
+                                    <div class="back-field"><span class="field-label"><i class="fas fa-calendar-times"></i> Expiry</span><span class="field-value" id="backExpiryDate">26-06-2028</span></div>
+                                    <div class="back-field"><span class="field-label"><i class="fas fa-phone-alt"></i> Helpline</span><span class="field-value" id="backHelpline">1800-111-2222</span></div>
+                                    <div class="back-field"><span class="field-label"><i class="fas fa-building"></i> Authority</span><span class="field-value" id="backAuthority">CSC e-Governance Services India Ltd.</span></div>
+                                    <div class="back-terms">
+                                        <strong><i class="fas fa-gavel"></i> Terms &amp; Conditions</strong>
+                                        <div class="back-terms-scroll" id="backTerms">This ID card is the property of CSC e-Governance Services. It must be presented upon request. Unauthorized use is prohibited. Valid only with authorized signature and photo.</div>
+                                    </div>
+                                </div>
+                                <div class="card-back-footer">
+                                    <span class="hologram">&#10022; &#10022; &#10022;</span>
+                                    <span class="stamp">&#9670; CSC &#9670;</span>
+                                    <span style="font-size:7px; opacity:0.4;">v3.2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:12px;">
+                <span class="dimension-hint no-print"><i class="fas fa-ruler-combined"></i> 8.6 cm &times; 5.4 cm</span>
+            </div>
+        </section>
+    </div>
+    </main>
+
+    <!-- ========== HOW TO USE GUIDE ========== -->
+    <section class="no-print max-w-5xl mx-auto px-6 py-14">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-black text-slate-900">How to Use the CSC ID Card Maker</h2>
+            <p class="text-slate-500 mt-2">Make a professional ID card in 4 easy steps &mdash; no design skills needed.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+                <div class="w-12 h-12 rounded-xl bg-[#ab183d] text-white flex items-center justify-center text-xl font-black mb-4">1</div>
+                <h3 class="font-bold text-slate-800 mb-2"><i class="fas fa-keyboard text-[#ab183d] mr-1"></i> Enter Details</h3>
+                <p class="text-sm text-slate-600">Type the VLE name, CSC ID, center name, mobile, email and address. The live preview updates instantly.</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+                <div class="w-12 h-12 rounded-xl bg-[#ab183d] text-white flex items-center justify-center text-xl font-black mb-4">2</div>
+                <h3 class="font-bold text-slate-800 mb-2"><i class="fas fa-camera text-[#ab183d] mr-1"></i> Add Photo &amp; Sign</h3>
+                <p class="text-sm text-slate-600">Upload a passport-style photo, then draw your signature on the pad or upload a signature image.</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+                <div class="w-12 h-12 rounded-xl bg-[#ab183d] text-white flex items-center justify-center text-xl font-black mb-4">3</div>
+                <h3 class="font-bold text-slate-800 mb-2"><i class="fas fa-palette text-[#ab183d] mr-1"></i> Pick Template</h3>
+                <p class="text-sm text-slate-600">Choose from Blue, Orange, Green, Govt, Modern or Premium designs. Use Flip to check the back side.</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+                <div class="w-12 h-12 rounded-xl bg-[#ab183d] text-white flex items-center justify-center text-xl font-black mb-4">4</div>
+                <h3 class="font-bold text-slate-800 mb-2"><i class="fas fa-download text-[#ab183d] mr-1"></i> Download</h3>
+                <p class="text-sm text-slate-600">Download a high-resolution PNG (front/back) or a print-ready PDF with both sides in 8.6&times;5.4 cm size.</p>
+            </div>
+        </div>
+
+        <div class="mt-12 grid md:grid-cols-2 gap-6">
+            <div class="bg-indigo-50 rounded-2xl p-6">
+                <h3 class="font-bold text-slate-800 mb-3"><i class="fas fa-lightbulb text-amber-500 mr-1"></i> Pro Tips</h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc pl-5">
+                    <li>Use a clear, front-facing passport photo on a plain background for the best result.</li>
+                    <li>For printing, choose <strong>PDF (Both)</strong> &mdash; it is already sized to standard PVC card dimensions.</li>
+                    <li>The QR code stores name, ID, center, mobile and email for quick scanning.</li>
+                    <li>Everything works offline in your browser &mdash; your data never leaves your device.</li>
+                </ul>
+            </div>
+            <div class="bg-green-50 rounded-2xl p-6">
+                <h3 class="font-bold text-slate-800 mb-3"><i class="fas fa-circle-check text-green-600 mr-1"></i> Best For</h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc pl-5">
+                    <li>CSC VLE identity cards</li>
+                    <li>Employee &amp; staff office ID cards</li>
+                    <li>School &amp; college student ID cards</li>
+                    <li>Shop, agency &amp; business ID cards</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="no-print bg-gray-100 py-14">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-3xl font-black text-slate-900 text-center mb-8">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <details class="bg-white rounded-xl shadow-sm p-5" open>
+                    <summary class="font-semibold text-slate-800 cursor-pointer">Is the CSC ID Card Maker free?</summary>
+                    <p class="text-sm text-slate-600 mt-3">Yes, it is 100% free with unlimited downloads and no watermark.</p>
+                </details>
+                <details class="bg-white rounded-xl shadow-sm p-5">
+                    <summary class="font-semibold text-slate-800 cursor-pointer">What size is the ID card?</summary>
+                    <p class="text-sm text-slate-600 mt-3">The card is generated in the standard PVC ID card size of 8.6&nbsp;cm &times; 5.4&nbsp;cm (CR80), ready for printing.</p>
+                </details>
+                <details class="bg-white rounded-xl shadow-sm p-5">
+                    <summary class="font-semibold text-slate-800 cursor-pointer">Is my data safe?</summary>
+                    <p class="text-sm text-slate-600 mt-3">Yes. Everything runs inside your browser. Your photo and details are never uploaded to any server.</p>
+                </details>
+                <details class="bg-white rounded-xl shadow-sm p-5">
+                    <summary class="font-semibold text-slate-800 cursor-pointer">Can I add a QR code and barcode?</summary>
+                    <p class="text-sm text-slate-600 mt-3">Yes, the card automatically generates a QR code and barcode from your CSC ID and details.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER (Pro CSC Tools) ========== -->
+    <footer class="no-print bg-gray-900 text-gray-400 pt-14 pb-8">
+        <div class="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-2xl font-bold text-white">Pro CSC Tools</h3>
+                <p class="text-sm mt-3 leading-relaxed">Free professional online tools for CSC VLEs, students and job applicants &mdash; documents, photos, billing and calculators, all in one place.</p>
+                <div class="flex gap-3 mt-4 flex-wrap">
+                    <a href="https://wa.me/916387617678" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-whatsapp"></i></a>
+                    <a href="/contact.html" aria-label="Email" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+916387617678" aria-label="Call" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fas fa-phone"></i></a>
+                    <a href="https://www.facebook.com/procsctools" target="_blank" rel="noopener" aria-label="Facebook" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/procsctools" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@procsctools" target="_blank" rel="noopener" aria-label="YouTube" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/procsctools" target="_blank" rel="noopener" aria-label="Twitter X" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://t.me/procsctools" target="_blank" rel="noopener" aria-label="Telegram" class="w-9 h-9 rounded-full bg-gray-800 hover:bg-[#ab183d] flex items-center justify-center text-white transition"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Quick Links</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="/" class="hover:text-white">Home</a></li>
+                    <li><a href="/about.html" class="hover:text-white">About Us</a></li>
+                    <li><a href="/contact.html" class="hover:text-white">Contact</a></li>
+                    <li><a href="/#tools" class="hover:text-white">All Tools</a></li>
+                    <li><a href="/#blog" class="hover:text-white">Blog / Guides</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Popular Tools</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="/tools/passport.html" class="hover:text-white">Passport Photo Maker</a></li>
+                    <li><a href="/tools/bg.html" class="hover:text-white">Background Remover</a></li>
+                    <li><a href="/tools/photo-sign.html" class="hover:text-white">Signature Resizer</a></li>
+                    <li><a href="/tools/image-to-pdf.html" class="hover:text-white">Image to PDF</a></li>
+                    <li><a href="/tools/invoice-generator.html" class="hover:text-white">Bill Generator</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Legal</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="/privacy.html" class="hover:text-white">Privacy Policy</a></li>
+                    <li><a href="/terms.html" class="hover:text-white">Terms of Use</a></li>
+                    <li><a href="/disclaimer.html" class="hover:text-white">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-xs pt-8 border-t border-gray-800 mt-10">&copy; 2026 Pro CSC Tools. All rights reserved. Made with &#10084;&#65039; in India for All CSC VLEs.</div>
+    </footer>
+
+    <a href="https://wa.me/916387617678?text=Hello%20I%20need%20CSC%20help" class="no-print wa-float fixed bottom-6 right-6 z-50 bg-green-500 p-4 rounded-full shadow-2xl" aria-label="WhatsApp"><i class="fab fa-whatsapp text-white text-2xl"></i></a>
+
+    <!-- Toast container -->
+    <div id="toastContainer" class="toast-container no-print"></div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
